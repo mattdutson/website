@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+theme: minima
+title: Matthew Dutson
+header_pages:
+  - about.md
+  - portfolio.md
