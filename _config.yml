@@ -1,6 +1,7 @@
 theme: minima
 title: Matthew Dutson
+name: Test
 header_pages:
-  - about.md
-  - portfolio.md
-  - coursework.md
+  - projects.md
+  - skills.md
+  - education.md

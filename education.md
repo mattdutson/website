@@ -1,9 +1,17 @@
 ---
-title: Coursework
+title: Education
 layout: page
 ---
 
-## CS Coursework
+## Educational History
+
+### University of Wisconsin-Madison
+
+### University of Utah
+
+## Coursework
+
+### Computer Science
 
 | Institution | Course ID | Title                                   | Semester    |
 | ----------- | --------- | --------------------------------------- | ----------- |
@@ -17,7 +25,7 @@ layout: page
 | Utah        | 2420      | Intro to Algorithms and Data Structures | Fall 2015   |
 | Utah        | 1410      | Object-Oriented Programming             | Spring 2015 |
 
-## Math Coursework
+### Mathematics
 
 | Institution | Course ID | Title                                     | Semester    |
 | ----------- | --------- | ----------------------------------------- | ----------- |
@@ -30,7 +38,7 @@ layout: page
 | Utah        | 1260      | Calculus II                               | Spring 2014 |
 | Utah        | 1250      | Calculus I                                | Fall 2013   |
 
-## Physics Coursework
+### Physics
 
 | Institution | Course ID | Title                                     | Semester    |
 | ----------- | --------- | ----------------------------------------- | ----------- |
