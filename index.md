@@ -3,18 +3,6 @@ layout: home
 title: Home
 ---
 
-<img style="float:left;width:200px;margin-right:30px" src="/assets/headshot.jpg" alt="headshot"/>
-
-## Contact
-
-Email: [dutson@wisc.edu](mailto:dutson@wisc.edu)
-
-GitHub: [github.com/mattdutson](https://github.com/mattdutson)
-
-Address:  
-1210 W Dayton St Rm 4360  
-Madison, WI 53706
-
 ## Summary
 
 Since 2018 I've been a student in the computer science PhD program at the University of Wisconsin-Madison. I am currently advised by [Jignesh Patel](http://pages.cs.wisc.edu/~jignesh/). In 2018 I received a bachelor's degree in physics from the University of Utah.
