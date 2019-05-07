@@ -19,4 +19,4 @@ democratic institutions. I choose to conduct my work in a way that aligns with
 principles of democracy, privacy, environmentalism, and respect for human
 rights.
 
-This site is currently under construction. Last updated April 27, 2019.
+This site is currently under construction. Last updated May 7, 2019.
