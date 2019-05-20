@@ -2,6 +2,4 @@ theme: minima
 title: Matt Dutson
 name: Test
 header_pages:
-  - projects.md
-  - skills.md
   - coursework.md
