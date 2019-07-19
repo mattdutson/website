@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{titlesec}
+\titleformat{\section}
+    {\Large \bfseries}{\thesection}{1em}{}[{\titlerule[0.5pt]}]
+
+\usepackage{tgadventor}
+\newcommand{\setfont}{\fontfamily{qag} \selectfont}
+
+\usepackage{enumitem}
+\renewcommand{\labelitemi}{-}
+\setlist[itemize]{noitemsep, topsep=0.2em, leftmargin=0.2in}
+
+\newcommand{\tabsize}{\hspace{4.8in}}
+
+\newenvironment{tab1}
+    {\bfseries \begin{tabbing} \tabsize \= \kill}
+    {\end{tabbing}}
+
+\newenvironment{tab2}
+    {\begin{tabbing} \tabsize \= \kill}
+    {\end{tabbing}}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0em}
+\setlength{\topsep}{0em}
+\setlength{\partopsep}{0em}
+
+
+\begin{document}
+
+\setfont
+\pagestyle{empty}
+
+
+\begin{center}
+    {\LARGE \bfseries Matthew Dutson}\\
+    \medskip
+    mdutson.net\\
+    (435) 720-1369 \enspace dutson@wisc.edu
+\end{center}
+
+
+\section*{Education}
+
+\begin{tab1} University of Wisconsin-Madison \> Madison, Wisconsin \end{tab1}
+\begin{tab2} MS/PhD in Computer Science \> Fall 2018 - Present \end{tab2}
+
+\begin{itemize}
+    \item Interests: Computer vision, graphics, machine learning
+\end{itemize}
+
+\bigskip
+
+\begin{tab1} University of Utah \> Salt Lake City, Utah \end{tab1}
+\begin{tab2} Honors Bachelor of Science in Physics \> Fall 2013 - Spring 2018 \end{tab2}
+
+\begin{itemize}
+    \item Minors: Computer science, mathematics
+    \item Magnum cum laude
+    \item Thesis: Reconstruction of Cosmic Ray Geometry Using Cherenkov Backscattering (bit.ly/2QovjDi)
+\end{itemize}
+
+
+\section*{Coursework and Languages}
+
+Selected Coursework: Algorithms, software engineering, scientific computing, artificial intelligence, machine learning, linear algebra, ODEs, PDEs, statistics\\
+Most Experience: C++, Rust, Java, Python, LaTeX\\
+Some Experience: C, C\#, Perl, SQL, UNIX
+
+
+\section*{Work Experience}
+
+\begin{tab1} UW-Madison Computer Sciences \> Madison, Wisconsin \end{tab1}
+\begin{tab2} Graduate Research Assistant \> Fall 2018 - Present \end{tab2}
+\begin{itemize}
+    \item Collaborator on Hustle - a scalable replacement for SQLite written in Rust.
+    \item Wrote a framework to generate synthetic images of biological fiber networks.
+\end{itemize}
+
+\bigskip
+
+\begin{tab1} University of Utah Physics \& Astronomy \> Salt Lake City, Utah \end{tab1}
+\begin{tab2} Undergraduate Research Assistant \> Spring 2016 - Summer 2018 \end{tab2}
+\begin{itemize}
+    \item Operated fluorescence telescopes at the Telescope Array observatory.
+    \item Addressed unexpected on-site technical problems.
+\end{itemize}
+
+\bigskip
+
+\begin{tab1} University of Utah School of Computing \> Salt Lake City, Utah \end{tab1}
+\begin{tab2} Teaching Assistant \> Fall 2017 \end{tab2}
+\begin{itemize}
+    \item Course: CS 2100 - Discrete Mathematics
+    \item Instructor: Bei Wang
+    \item Responsibilities included leading weekly discussions and creating homework solutions.
+\end{itemize}
+
+\bigskip
+
+\begin{tab1} IM Flash Technologies \> Lehi, Utah \end{tab1}
+\begin{tab2} Process Software Intern - Second Year \> Summer 2017 \end{tab2}
+\begin{itemize}
+    \item Developed Perl automation software to improve efficiency of defect sourcing.
+    \item Participated in the sourcing of a high-impact photolithography defect.
+    \item Modified existing software to reduce test time estimation errors by 97\%.
+\end{itemize}
+
+\bigskip
+
+\begin{tab2} Process Sofftware Intern - First Year \> Summer 2016 \end {tab2}
+\begin{itemize}
+    \item Developed a C++ computer vision application to detect robotic malfunctions.
+    \item Detected 95\% of malfunctions, exceeding 60\% target.
+    \item Applied knowledge of optics to optimally configure camera and lighting.
+\end{itemize}
+
+\end{document}

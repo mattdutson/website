@@ -1,2 +1,4 @@
 _site/
 .bundle/
+*synctex.gz
+*.DS_Store
