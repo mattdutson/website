@@ -1,6 +1,6 @@
 ---
-title: Coursework
 layout: page
+title: Coursework
 ---
 
 ## Computer Science

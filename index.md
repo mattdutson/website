@@ -14,3 +14,5 @@ As far as programming languages, I'm most comfortable with [C++](https://github.
 Aside from the enjoyment I derive from its practice, my enthusiasm for computer science comes from its potential to improve the human condition. Unfortunately, technology can also concentrate power and threaten democratic institutions. I choose to conduct my work in a way that aligns with principles of democracy, privacy, sustainability, and respect for human rights.
 
 Finally, as if there weren't enough hyperlinks on this page, here's one to [my resume](assets/resume.pdf).
+
+This page was last updated July 18, 2019.
