@@ -1,31 +1,32 @@
 \documentclass[12pt]{article}
 
-\usepackage[margin=1in]{geometry}
+\usepackage[letterpaper, margin=0.5in]{geometry}
 
 \usepackage{titlesec}
 \titleformat{\section}
-    {\Large \bfseries}{\thesection}{1em}{}[{\titlerule[0.5pt]}]
+    {\large \bfseries}{\thesection}{}{}[{\titlerule[0.5pt]}]
+\titlespacing{\section}
+    {0pt}{0.7em}{0.5em}
 
-\usepackage{tgadventor}
-\newcommand{\setfont}{\fontfamily{qag} \selectfont}
+\usepackage{palatino}
+\newcommand{\setfont}{\fontfamily{ppl} \selectfont}
 
 \usepackage{enumitem}
-\renewcommand{\labelitemi}{-}
-\setlist[itemize]{noitemsep, topsep=0.2em, leftmargin=0.2in}
+\renewcommand{\labelitemi}{--}
+\setlist[itemize]{noitemsep, topsep=0.2em, leftmargin=0.3in}
 
-\newcommand{\tabsize}{\hspace{4.8in}}
+\newcommand{\blockskip}{\vspace{0.7em}}
+
+\newcommand{\tabsize}{\hspace{5.2in}}
 
 \newenvironment{tab1}
-    {\bfseries \begin{tabbing} \tabsize \= \kill}
-    {\end{tabbing}}
+    {\bfseries \begin{tabbing} \tabsize \= \kill}{\end{tabbing}}
 
 \newenvironment{tab2}
-    {\begin{tabbing} \tabsize \= \kill}
-    {\end{tabbing}}
+    {\begin{tabbing} \tabsize \= \kill}{\end{tabbing}}
 
 \setlength{\parindent}{0em}
-\setlength{\parskip}{0em}
-\setlength{\topsep}{0em}
+\setlength{\topsep}{0.1em}
 \setlength{\partopsep}{0em}
 
 
@@ -52,70 +53,71 @@
     \item Interests: Computer vision, graphics, machine learning
 \end{itemize}
 
-\bigskip
+\blockskip
 
 \begin{tab1} University of Utah \> Salt Lake City, Utah \end{tab1}
 \begin{tab2} Honors Bachelor of Science in Physics \> Fall 2013 - Spring 2018 \end{tab2}
 
 \begin{itemize}
-    \item Minors: Computer science, mathematics
     \item Magnum cum laude
-    \item Thesis: Reconstruction of Cosmic Ray Geometry Using Cherenkov Backscattering (bit.ly/2QovjDi)
+    \item Minors: Computer science, mathematics
+    \item Thesis: Reconstruction of Cosmic Ray Geometry Using Cherenkov Backscattering
 \end{itemize}
 
 
 \section*{Coursework and Languages}
 
-Selected Coursework: Algorithms, software engineering, scientific computing, artificial intelligence, machine learning, linear algebra, ODEs, PDEs, statistics\\
-Most Experience: C++, Rust, Java, Python, LaTeX\\
-Some Experience: C, C\#, Perl, SQL, UNIX
+\begin{tabular}{ @{} p{1.75in} p{5.5in} }
+Selected coursework & Machine learning, artificial intelligence, computer graphics, algorithms, scientific computing, linear algebra, statistics, differential equations \\
+Most experience & C++, Python, Java, Rust \\
+Some experience & C, C\#, Perl, JavaScript, LaTeX, Linux/UNIX
+\end{tabular}
 
 
 \section*{Work Experience}
 
-\begin{tab1} UW-Madison Computer Sciences \> Madison, Wisconsin \end{tab1}
-\begin{tab2} Graduate Research Assistant \> Fall 2018 - Present \end{tab2}
+\begin{tab1} Esri \> Redlands, California \end{tab1}
+\begin{tab2} Map Exploration Software Intern \> Summer 2019 \end{tab2}
 \begin{itemize}
-    \item Collaborator on Hustle - a scalable replacement for SQLite written in Rust.
-    \item Wrote a framework to generate synthetic images of biological fiber networks.
+    \item Creating tools for high-performance visibility analysis in ArcGIS Pro.
+    \item Leveraging machine learning for detecting objects in 3D urban scenes.
 \end{itemize}
 
-\bigskip
+\blockskip
+
+\begin{tab1} UW-Madison Computer Sciences \> Madison, Wisconsin \end{tab1}
+\begin{tab2} Graduate Research Assistant \> Fall 2018 - Spring 2019 \end{tab2}
+\begin{itemize}
+    \item Collaborator on Hustle, a scalable replacement for SQLite written in Rust.
+    \item Wrote a Java application to generate synthetic images of biological fiber networks.
+\end{itemize}
+
+\blockskip
 
 \begin{tab1} University of Utah Physics \& Astronomy \> Salt Lake City, Utah \end{tab1}
 \begin{tab2} Undergraduate Research Assistant \> Spring 2016 - Summer 2018 \end{tab2}
 \begin{itemize}
-    \item Operated fluorescence telescopes at the Telescope Array observatory.
-    \item Addressed unexpected on-site technical problems.
+    \item Conducted research on atmospheric cosmic ray detection techniques.
+    \item Operated the Telescope Array observatory in Delta, Utah.
 \end{itemize}
 
-\bigskip
+\blockskip
 
 \begin{tab1} University of Utah School of Computing \> Salt Lake City, Utah \end{tab1}
 \begin{tab2} Teaching Assistant \> Fall 2017 \end{tab2}
 \begin{itemize}
     \item Course: CS 2100 - Discrete Mathematics
-    \item Instructor: Bei Wang
-    \item Responsibilities included leading weekly discussions and creating homework solutions.
+    \item Responsible for leading weekly discussions and creating homework solutions.
 \end{itemize}
 
-\bigskip
+\blockskip
 
 \begin{tab1} IM Flash Technologies \> Lehi, Utah \end{tab1}
-\begin{tab2} Process Software Intern - Second Year \> Summer 2017 \end{tab2}
+\begin{tab2} Process Software Intern \> Summer 2017, Summer 2018 \end{tab2}
 \begin{itemize}
-    \item Developed Perl automation software to improve efficiency of defect sourcing.
-    \item Participated in the sourcing of a high-impact photolithography defect.
-    \item Modified existing software to reduce test time estimation errors by 97\%.
-\end{itemize}
-
-\bigskip
-
-\begin{tab2} Process Sofftware Intern - First Year \> Summer 2016 \end {tab2}
-\begin{itemize}
-    \item Developed a C++ computer vision application to detect robotic malfunctions.
-    \item Detected 95\% of malfunctions, exceeding 60\% target.
-    \item Applied knowledge of optics to optimally configure camera and lighting.
+    \item Wrote Perl scripts to improve the efficiency of manufacturing defect sourcing.
+    \item Improved existing software to reduce errors in process time estimation by 97 percent.
+    \item Built a C++ computer vision application for detecting equipment malfunctions.
 \end{itemize}
 
 \end{document}
