@@ -5,17 +5,19 @@ layout: page
 
 ## Computer Science
 
-| Institution | Course ID | Title                                   | Semester    |
-| ----------- | --------- | --------------------------------------- | ----------- |
-| Wisconsin   | 760       | Machine Learning                        | Spring 2019 |
-| Wisconsin   | 559       | Computer Graphics                       | Spring 2019 |
-| Wisconsin   | 540       | Intro to Artificial Intelligence        | Fall 2018   |
-| Wisconsin   | 354       | Machine Organization and Programming    | Fall 2018   |
-| Utah        | 4150      | Algorithms                              | Fall 2017   |
-| Utah        | 3500      | Software Practice                       | Fall 2016   |
-| Utah        | 2100      | Discrete Mathematics                    | Spring 2016 |
-| Utah        | 2420      | Intro to Algorithms and Data Structures | Fall 2015   |
-| Utah        | 1410      | Object-Oriented Programming             | Spring 2015 |
+| Institution | Course ID | Title                                     | Semester    |
+| ----------- | --------- | ----------------------------------------- | ----------- |
+| Wisconsin   | 838       | Learning-Based Methods in Computer Vision | Fall 2019   |
+| Wisconsin   | 726       | Nonlinear Optimization I                  | Fall 2019   |
+| Wisconsin   | 760       | Machine Learning                          | Spring 2019 |
+| Wisconsin   | 559       | Computer Graphics                         | Spring 2019 |
+| Wisconsin   | 540       | Intro to Artificial Intelligence          | Fall 2018   |
+| Wisconsin   | 354       | Machine Organization and Programming      | Fall 2018   |
+| Utah        | 4150      | Algorithms                                | Fall 2017   |
+| Utah        | 3500      | Software Practice                         | Fall 2016   |
+| Utah        | 2100      | Discrete Mathematics                      | Spring 2016 |
+| Utah        | 2420      | Intro to Algorithms and Data Structures   | Fall 2015   |
+| Utah        | 1410      | Object-Oriented Programming               | Spring 2015 |
 
 ## Mathematics
 
