@@ -1,4 +1,5 @@
-_site/
-.bundle/
+_site
+.bundle
+vendor
+.DS_Store
 *synctex.gz
-*.DS_Store
