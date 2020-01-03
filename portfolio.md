@@ -1,7 +1,9 @@
 ---
 title: Portfolio
-layout: page
+layout: default
 ---
+
+# Portfolio
 
 This page contains some discussion of my past work along with links to source code and results. I have chosen not to discuss the proprietary work I've done during internships, although highlights can be found on [my resume](/assets/resume.pdf).
 

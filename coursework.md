@@ -1,7 +1,9 @@
 ---
 title: Coursework
-layout: page
+layout: default
 ---
+
+# Coursework
 
 ## Computer Science
 
