@@ -9,6 +9,8 @@ layout: default
 
 | Institution | Course ID | Title                                     | Semester    |
 | ----------- | --------- | ----------------------------------------- | ----------- |
+| Wisconsin   | 766       | Computer Vision                           | Spring 2020 |
+| Wisconsin   | 759       | Applied High Performance Computing        | Spring 2020 |
 | Wisconsin   | 838       | Learning-Based Methods in Computer Vision | Fall 2019   |
 | Wisconsin   | 726       | Nonlinear Optimization I                  | Fall 2019   |
 | Wisconsin   | 760       | Machine Learning                          | Spring 2019 |
