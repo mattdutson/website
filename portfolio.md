@@ -16,6 +16,7 @@ This is a personal side project I recently picked up. Neural style transfer extr
 My implementation is mostly based on [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) (Gatys et al. 2015). The L-BFGS optimizer is used to minimize a loss function comprised of a style term, a content term, and an anti-noise term.
 
 Here's an example. On the left is a photo I took of a bristlecone pine in Great Basin National Park. The right image reexpresses that image in the style of [The Scream](https://en.wikipedia.org/wiki/The_Scream) by Edvard Munch.
+
 ![style sample](/assets/style_sample.jpg)
 
 ## Post-Disaster Building Damage Detection
@@ -27,9 +28,11 @@ Mehmet Demirel, Shri Shridhar, and I participated in the 2019 [xView2 competitio
 We trained a custom [U-Net](https://arxiv.org/abs/1505.04597) (Ronneberger et al. 2015) using a class-weighted loss. Our model performed competitively, spending a couple of weeks on the competition leaderboard. The details of our approach and results can be found in [this report](/assets/xview2_report.pdf).
 
 Here's an example of a pre/post-disaster image pair.
+
 ![pre post sample](/assets/pre_post_sample.png)
 
 These next images show the correct (left) and our model's predicted (right) building damage masks. The color scale ranges from green (no damage) to red (destroyed).
+
 ![true pred sample](/assets/true_pred_sample.png)
 
 ## Biological Fiber Image Generation
@@ -46,7 +49,9 @@ The core technical challenge in fiber generation is constructing a random path g
  * A more mathematically rigorous algorithm which samples uniformly from the set of n-step fixed-endpoint random walks. A rough implementation can be found [here](https://github.com/mattdutson/random-walk-2d).
 
 Here's a generated image with mostly straight fibers, but low alignment between fibers.
+
 ![straight fibers](/assets/straight_fibers.png)
 
 This one has curly, aligned fibers.
+
 ![curly fibers](/assets/curly_fibers.png)
