@@ -55,3 +55,11 @@ h3, .post-content h3, .post-link {
     top:0;
     position: absolute;
 }
+
+table th, table td {
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: inherit;
+}
