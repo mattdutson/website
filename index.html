@@ -7,11 +7,13 @@ layout: default
   <img style="float:left;width:200px;margin-right:30px;margin-bottom:20px" src="/assets/headshot.jpg" alt="headshot"/>
   <div style="overflow:hidden;min-width:max-content">
     <h2>Information</h2>
-    <p>Phone: {{ site.data.contact.phone }}</p>
-    <p>Email: <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
-    <p>GitHub: <a href="https://github.com/{{ site.data.contact.github }}">github.com/{{ site.data.contact.github }}</a></p>
-    <p>Resume: <a href="/assets/resume.pdf">resume.pdf</a></p>
-    <!-- <p>Address:</br>{{ site.data.contact.address }}</p> -->
+    <table class="invisible-table">
+      <tr><td>Phone</td><td>{{ site.data.contact.phone }}</td></tr>
+      <tr><td>Email</td><td><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></td></tr>
+      <tr><td colspan="2"><a href="/assets/resume.pdf">Resume</a></td></tr>
+      <tr><td colspan="2"><a href="https://scholar.google.com/citations?user=jaqy7iwAAAAJ">Google Scholar</a></td></tr>
+      <tr><td colspan="2"><a href="https://github.com/{{ site.data.contact.github }}">GitHub</a></td></tr>
+    </table>
   </div>
 
   <div style="clear:left">
@@ -25,7 +27,7 @@ layout: default
 
     <p>Aside from the enjoyment I derive from its practice, my enthusiasm for computer science comes from its potential to improve the human condition. Unfortunately, technology can also concentrate power and threaten democratic institutions. I choose to conduct my work in a way that aligns with principles of democracy, privacy, sustainability, and respect for human rights.</p>
     
-    <p>This site was last updated March 13, 2020.</p>
+    <p>This site was last updated May 9, 2020.</p>
   </div>
 
 </div>

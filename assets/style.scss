@@ -34,9 +34,9 @@ h3, .post-content h3, .post-link {
 }
 
 .pagination {
-    border-top: 2px solid #e8e8e8;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-top: 2px solid #e8e8e8;
 }
 
 .post-link {
@@ -62,4 +62,17 @@ table th, table td {
 
 table tr:nth-child(even) {
     background-color: inherit;
+}
+
+.invisible-table {
+    width: auto;
+    border: none;
+}
+
+.invisible-table td {
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    border: none;
 }
