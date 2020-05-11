@@ -4,10 +4,6 @@
 
 @import "minima";
 
-// ============================================================================
-// Common to all sites
-// ============================================================================
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 450;
 }
@@ -65,6 +61,8 @@ table tr:nth-child(even) {
 }
 
 .invisible-table {
+    // Since table items have 5px of padding, this results in 12px of total space
+    margin-bottom: 7px;
     width: auto;
     border: none;
 }
