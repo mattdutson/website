@@ -24,9 +24,27 @@ h3, .post-content h3, .post-link {
     font-size: 20px;
 }
 
-.site-header {
-    border-top: 0px;
-    border-bottom: 2px solid #e8e8e8;
+table th, table td {
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: inherit;
+}
+
+.invisible-table {
+    // Since table items have 5px of padding, this gives 12px of total space
+    margin-bottom: 7px;
+    border: none;
+    width: auto;
+}
+
+.invisible-table td {
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border: none;
 }
 
 .pagination {
@@ -37,6 +55,11 @@ h3, .post-content h3, .post-link {
 
 .post-link {
     margin-bottom: -10px;
+}
+
+.site-header {
+    border-top: 0px;
+    border-bottom: 2px solid #e8e8e8;
 }
 
 .youtube-container {
@@ -52,25 +75,18 @@ h3, .post-content h3, .post-link {
     position: absolute;
 }
 
-table th, table td {
-    padding: 5px;
+#contact {
+    min-width: max-content;
+    overflow: hidden;
 }
 
-table tr:nth-child(even) {
-    background-color: inherit;
+#headshot {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    float: left;
 }
 
-.invisible-table {
-    // Since table items have 5px of padding, this results in 12px of total space
-    margin-bottom: 7px;
-    width: auto;
-    border: none;
-}
-
-.invisible-table td {
-    padding-left: 0px;
-    padding-right: 15px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    border: none;
+#summary {
+    clear: left;
 }
