@@ -46,7 +46,7 @@ CT-FIRE and CurveAlign were developed by LOCI to analyze images of collagen fibe
 The core technical challenge in fiber generation is constructing a random path given a fixed length and fixed endpoint positions. I experimented with two approaches:
 
  * A geometric algorithm which recursively "bridges" the endpoints subject to path length constraints. This is the approach currently used by the synthetic fiber generator.
- * A more mathematically rigorous algorithm which samples uniformly from the set of n-step fixed-endpoint random walks. A rough implementation can be found [here](https://github.com/mattdutson/random-walk-2d).
+ * A more mathematically rigorous algorithm which samples uniformly from the set of n-step fixed-endpoint random walks.
 
 Here's a generated image with mostly straight fibers, but low alignment between fibers.
 
