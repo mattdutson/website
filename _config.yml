@@ -1,4 +1,5 @@
 theme: minima
 title: Matt Dutson
 header_pages:
+  - cv.html
   - projects.md
