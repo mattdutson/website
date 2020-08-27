@@ -1,11 +1,11 @@
 ---
-title: Portfolio
+title: Projects
 layout: default
 ---
 
-# Portfolio
+# Projects
 
-This page contains some discussion of my past work along with links to source code and results. I have chosen not to discuss the proprietary work I've done during internships, although highlights can be found on [my resume](/assets/resume.pdf).
+This page contains some discussion of my past work along with links to source code and results. I have chosen not to discuss the proprietary work I've done during internships, although highlights can be found on [my CV](/assets/cv.pdf).
 
 ## Neural Style Transfer
 

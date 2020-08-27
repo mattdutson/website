@@ -1,173 +1,157 @@
-\input{resume_preamble}
+\documentclass[sans]{moderncv}
 
-\usepackage{bibentry}
+\usepackage[margin=2cm]{geometry}
+
+\moderncvstyle{classic} % casual (default), classic, banking, oldstyle, fancy
+\moderncvcolor{grey}    % black, blue (default), burgandy, green, grey, orange, purple, red
+\moderncvicons{awesome} % awesome, marvosym
+
+% Sets non-italic font for contact info
+\renewcommand{\addressfont}{\normalsize\mdseries\upshape}
+
+% Fixes weird off-center bullets
+\renewcommand{\labelitemi}{\color{color1}\raisebox{0.5pt}{$\circ$}}
+
+% =============================================================================
+
+\name{Matt}{Dutson}
+\phone{(608) 440-4434}
+\email{dutson@wisc.edu}
+\homepage{mdutson.net}
+
+% =============================================================================
 
 \begin{document}
 
-\nobibliography{publications}
-\bibliographystyle{acm}
+\makecvtitle
 
-\setfont
-\pagestyle{empty}
+% Default space below the title is pretty large
+\vspace{-2em}
 
-\begin{center}
-    {\LARGE \bfseries Matthew Dutson} \\
-    \medskip
-    mdutson.net \\
-    (608) 440-4434 \enspace dutson@wisc.edu
-\end{center}
+% =============================================================================
 
-\section*{Education}
+\section{Education}
 
-\begin{tab1} University of Wisconsin-Madison \> Madison, Wisconsin \end{tab1}
+\cventry{2018--Present}{MS/PhD in Computer Science}{University of Wisconsin-Madison}{Madison WI}{}{
+    Interests: Computer vision, computer graphics, machine learning
+}
 
-\begin{tab2} MS/PhD in Computer Science \> Fall 2018 - Present \end{tab2}
-\begin{itemize}
-    \item Interests: Computer vision, graphics, machine learning
-\end{itemize}
+\cventry{2013--2018}{Honors BS in Physics}{University of Utah}{Salt Lake City UT}{\textit{magnum cum laude}}{
+    Minors: Computer science, mathematics \newline
+    Thesis: Reconstruction of Cosmic Ray Geometry Using Cherenkov Backscattering
+}
 
-\blockskip
+% =============================================================================
 
-\begin{tab1} University of Utah \> Salt Lake City, Utah \end{tab1}
+\section{Publications}
 
-\begin{tab2} Honors Bachelor of Science in Physics \> Fall 2013 - Spring 2018 \end{tab2}
-\begin{itemize}
-    \item Magnum cum laude
-    \item Minors: Computer science, mathematics
-    \item Thesis: Reconstruction of Cosmic Ray Geometry Using Cherenkov Backscattering
-\end{itemize}
+\cvitem{2020}{
+    \textbf{Fibrillar Collagen Quantification With Curvelet Transform Based Computational Methods} \newline
+    \textit{Frontiers in Bioengineering and Biotechnology} \newline
+    Y.\ Liu, A.\ Keikhosravi, C.\ Pehlke, J.\ Bredfeldt, \textbf{M.\ Dutson}, H.\ Liu, G.\ Mehta, R.\ Claus, A.\ Patel, M.\ Conklin, D.\ Inman, P.\ Provenzano, E.\ Sifakis, J.\ Patel, and K.\ Eliceiri
+}
 
-\section*{Publications}
+% =============================================================================
 
-\bibentry{fibrillir_collagen_quantification}
+\section{Technical Skills}
 
-\section*{Coursework and Technologies}
+\cvitem{Languages}{\textbf{C++}, \textbf{Java}, \textbf{Python}, \textbf{Rust}, C, C\#, JavaScript, Perl}
 
-\begin{tabular}{ @{} p{1.75in} p{5in} }
-Selected coursework & Machine learning, computer vision, computer graphics, nonlinear optimization, algorithms, scientific computing, high performance computing, linear algebra, statistics, differential equations \\
-Most experience & Python, C++, Java, Rust, UNIX, Git, NumPy, TensorFlow \\
-Some experience & C, C\#, Perl, JavaScript, MATLAB, CUDA, OpenMP, MPI, PyTorch
-\end{tabular}
+\cvitem{Machine Learning}{\textbf{TensorFlow}, PyTorch}
 
-\section*{Work Experience}
+\cvitem{Scientific Computing}{\textbf{NumPy}, MATLAB}
 
-\begin{tab1} UW-Madison Computer Sciences \> Madison, Wisconsin \end{tab1}
+\cvitem{High Performance Computing}{CUDA, MPI, OpenMP}
 
-\begin{tab2} Graduate Research Assistant \> Spring 2020 - Present \end{tab2}
-\begin{itemize}
-    \item Advisor: Mohit Gupta
-    \item Developing techniques for interpreting data from single-photon visual sensors.
-    \item Exploring theory and applications of spiking neural networks.
-\end{itemize}
+\cvitem{Other}{\textbf{Linux}, \textbf{UNIX}, Git, LaTeX}
 
-\begin{tab2} Graduate Research Assistant \> Fall 2018 - Spring 2019 \end{tab2}
-\begin{itemize}
-    \item Advisors: Jignesh Patel, Kevin Eliceiri
-    \item Collaborator on Hustle, a scalable replacement for SQLite written in Rust.
-    \item Wrote a Java application to generate synthetic images of biological fiber networks.
-\end{itemize}
+% =============================================================================
 
-\blockskip
+\section{Selected Coursework}
 
-\begin{tab1} Esri \> Redlands, California \end{tab1}
+\cvitem{Computer Science}{Computer vision, computer graphics, machine learning, high performance computing, nonlinear optimization, algorithms, machine organization}
 
-\begin{tab2} Map Exploration Software Intern \> Summer 2019 \end{tab2}
-\begin{itemize}
-    \item Created tools for high-performance visibility analysis in ArcGIS Pro.
-    \item Leveraged machine learning for detecting objects in 3D urban scenes.
-\end{itemize}
+\cvitem{Mathematics}{Real analysis, statistics, partial differential equations, ordinary differential equations, linear algebra, calculus}
 
-\blockskip
+\cvitem{Physics}{Particle physics, quantum mechanics, special relativity, thermodynamics, classical physics}
 
-\begin{tab1} University of Utah Physics \& Astronomy \> Salt Lake City, Utah \end{tab1}
+% =============================================================================
 
-\begin{tab2} Undergraduate Research Assistant \> Spring 2016 - Summer 2018 \end{tab2}
-\begin{itemize}
-    \item Advisor: Douglas Bergman
-    \item Conducted research on atmospheric cosmic ray detection techniques.
-    \item Operated the Telescope Array observatory in Delta, Utah.
-\end{itemize}
+\section{Industry Experience}
 
-\blockskip
+\cventry{2019}{Map Exploration Software Intern}{Esri}{Redlands CA}{}{
+    \begin{itemize}
+        \item Designed and implemented algorithms for high-performance viewshed analysis.
+        \item Built an integrated machine learning application for automatically detecting building features in 3D urban scenes.
+    \end{itemize}
+}
 
-\begin{tab1} IM Flash Technologies \> Lehi, Utah \end{tab1}
+\cventry{2017}{Process Software Intern}{IM Flash Technologies}{Lehi UT}{}{
+    \begin{itemize}
+        \item Improved the efficiency of wafer defect sourcing using an automated Perl pipeline.
+        \item Reduced errors in process time estimation by 97 percent through online statistical analysis of historical data.
+    \end{itemize}
+}
 
-\begin{tab2} Process Software Intern \> Summer 2017 \end{tab2}
-\begin{itemize}
-    \item Wrote Perl scripts to improve the efficiency of manufacturing defect sourcing.
-    \item Improved existing software to reduce errors in process time estimation by 97 percent.
-\end{itemize}
+\cventry{2016}{Process Software Intern}{IM Flash Technologies}{Lehi UT}{}{
+    \begin{itemize}
+        \item Created a C++ OpenCV computer vision application which successfully detected manufacturing equipment failures.
+    \end{itemize}
+}
 
-\begin{tab2} Process Software Intern \> Summer 2016 \end{tab2}
-\begin{itemize}
-    \item Built a C++ computer vision application for detecting equipment malfunctions.
-\end{itemize}
+% =============================================================================
 
-\section*{Teaching Assistantships}
+\section{Research Experience}
 
-\begin{tab1} UW-Madison Computer Sciences \> Madison, Wisconsin \end{tab1}
+\cventry{2020--Present}{Research Assistant}{UW-Madison}{}{Advised by Mohit Gupta}{
+    \begin{itemize}
+        \item Creating image and video processing algorithms for single-photon visual sensors.
+        \item Exploring the theory and applications of spiking neural networks.
+    \end{itemize}
+}
 
-\begin{tab2} CS 559 - Computer Graphics \> Fall 2019 \end{tab2}
+\cventry{2018--2019}{Research Assistant}{UW-Madison}{}{Advised by Jignesh Patel and Kevin Eliceiri}{
+    \begin{itemize}
+        \item Participated in the initial design and development of Hustle, a scalable replacement for SQLite written in Rust.
+        \item Built a Java application for generating synthetic images of biological fiber networks.
+    \end{itemize}
+}
 
-\blockskip
+\cventry{2016--2018}{Research Assistant}{University of Utah}{}{Advised by Douglas Bergman}{
+    \begin{itemize}
+        \item Wrote C++ simulations of cosmic ray propagation and detection in order to test new detection techniques.
+        \item Operated the Telescope Array observatory in Delta, Utah.
+    \end{itemize}
+}
 
-\begin{tab1} University of Utah School of Computing \> Salt Lake City, Utah \end{tab1}
+% =============================================================================
 
-\begin{tab2} CS 2100 - Discrete Mathematics \> Fall 2017 \end{tab2}
+\section{Teaching Experience}
 
-\blockskip
+\cventry{Fall 2019}{Teaching Assistant}{UW-Madison}{}{Computer Graphics}{}
 
-\begin{tab1} University of Utah Physics \& Astronomy \> Salt Lake City, Utah \end{tab1}
+\cventry{Fall 2017}{Teaching Assistant}{University of Utah}{}{Discrete Mathematics}{}
 
-\begin{tab2} Physics 2020 - General Physics II \> Spring 2017 \end{tab2}
+\cventry{Spring 2017}{Teaching Assistant}{University of Utah}{}{General Physics II}{}
 
-\begin{tab2} Physics 2010 - General Physics I \> Fall 2016 \end{tab2}
+\cventry{Fall 2016}{Teaching Assistant}{University of Utah}{}{General Physics I}{}
 
-\section*{Other Experience}
+\cventry{2015--2016}{Private Tutor}{University of Utah}{}{}{}
 
-\begin{tab1} UW-Madison Student ACM Chapter (SACM) \> Madison, Wisconsin \end{tab1}
+% =============================================================================
 
-\begin{tab2} Events Committee Chair \> Fall 2019 - Present \end{tab2}
-\begin{itemize}
-    \item Coordinated volunteer efforts for department-wide, student-led events.
-    \item Worked with the CS department to plan the annual Prospective Student Welcome Weekend.
-\end{itemize}
+\section{Volunteer Experience}
 
-\begin{tab2} Events Committee Officer \> Spring 2019 \end{tab2}
+\cventry{2019--Present}{Events Committee Chair}{Student ACM Chapter}{Madison WI}{}{}
 
-\blockskip
+\cventry{2019}{Events Committee Officer}{Student ACM Chapter}{Madison WI}{}{}
 
-\begin{tab1} Lowell Elementary School \> Madison, Wisconsin \end{tab1}
+\cventry{2018}{CS Club Leader}{Lowell Elementary School}{Madison WI}{}{}
 
-\begin{tab2} CS Club Leader \> Fall 2018 \end{tab2}
-\begin{itemize}
-    \item Coached 4\textsuperscript{th} and 5\textsuperscript{th} graders in Scratch programming and computational thinking.
-    \item Managed behavior and attention of a large group.
-\end{itemize}
+\cventry{2016, 2017}{Project Judge}{Salt Lake Valley Science and Engineering Fair}{Salt Lake City UT}{}{}
 
-\blockskip
+\cventry{2015, 2016}{Science Day Volunteer}{University of Utah College of Science}{Salt Lake City UT}{}{}
 
-\begin{tab1} Salt Lake Valley Science and Engineering Fair \> Salt Lake City, Utah \end{tab1}
-
-\begin{tab2} Elementary Division Judge \> Spring 2016, Spring 2017 \end{tab2}
-\begin{itemize}
-    \item Evaluated projects at a regional science fair for K-12 students.
-    \item Provided advice and mentorship throughout the evaluation process.
-\end{itemize}
-
-\blockskip
-
-\begin{tab1} University of Utah College of Science \> Salt Lake City, Utah \end{tab1}
-
-\begin{tab2} Science Day Volunteer \> Fall 2015, Fall 2016 \end{tab2}
-\begin{itemize}
-    \item Offered logistical support at an annual outreach event for high school students.
-\end{itemize}
-
-\begin{tab2} Private Tutor \> Summer 2015 - Spring 2016 \end{tab2}
-\begin{itemize}
-    \item Courses: College Algebra I, General Physics I \& II, Physics for Scientists I \& II, Introduction to Quantum Mechanics and Relativity
-    \item Tutored 2-3 students each semester.
-\end{itemize}
+% =============================================================================
 
 \end{document}

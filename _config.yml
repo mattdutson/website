@@ -1,5 +1,4 @@
 theme: minima
 title: Matt Dutson
 header_pages:
-  - coursework.md
-  - portfolio.md
+  - projects.md
