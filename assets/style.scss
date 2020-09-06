@@ -24,6 +24,24 @@ h3, .post-content h3, .post-link {
     font-size: 20px;
 }
 
+li p {
+    margin-bottom: 0px;
+}
+
+// Credit to https://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/ for the sub/sup stuff
+sub, sup {
+    vertical-align: baseline;
+    position: relative;
+}
+
+sub {
+    top: 0.4em;
+}
+
+sup {
+    top: -0.4em;
+}
+
 table th, table td {
     padding: 5px;
 }
