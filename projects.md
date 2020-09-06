@@ -4,8 +4,15 @@ layout: default
 ---
 
 # Projects
+{:.no_toc}
 
-This page contains some discussion of my past work along with links to source code and results. I have chosen not to discuss the proprietary work I've done during internships, although highlights can be found on [my CV](/assets/cv.pdf).
+This page represents a non-exhaustive sample of my past work.
+
+## Contents
+{:.no_toc}
+
+* Contents
+{:toc}
 
 ## Neural Style Transfer
 
@@ -27,11 +34,11 @@ Mehmet Demirel, Shri Shridhar, and I participated in the 2019 [xView2 competitio
 
 We trained a custom [U-Net](https://arxiv.org/abs/1505.04597) (Ronneberger et al. 2015) using a class-weighted loss. Our model performed competitively, spending a couple of weeks on the competition leaderboard. The details of our approach and results can be found in [this report](/assets/xview2_report.pdf).
 
-Here's an example of a pre/post-disaster image pair.
+Here's an example of a pre/post-disaster image pair:
 
 ![pre post sample](/assets/pre_post_sample.png)
 
-These next images show the correct (left) and our model's predicted (right) building damage masks. The color scale ranges from green (no damage) to red (destroyed).
+These next images show the correct (left) and our model's predicted (right) building damage masks. The color scale ranges from green (no damage) to red (destroyed):
 
 ![true pred sample](/assets/true_pred_sample.png)
 
@@ -48,10 +55,10 @@ The core technical challenge in fiber generation is constructing a random path g
  * A geometric algorithm which recursively "bridges" the endpoints subject to path length constraints. This is the approach currently used by the synthetic fiber generator.
  * A more mathematically rigorous algorithm which samples uniformly from the set of n-step fixed-endpoint random walks.
 
-Here's a generated image with mostly straight fibers, but low alignment between fibers.
+Here's a generated image with mostly straight fibers, but low alignment between fibers:
 
 ![straight fibers](/assets/straight_fibers.png)
 
-This one has curly, aligned fibers.
+This one has curly, aligned fibers:
 
 ![curly fibers](/assets/curly_fibers.png)
