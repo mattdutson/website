@@ -24,10 +24,6 @@ h3, .post-content h3, .post-link {
     font-size: 20px;
 }
 
-li p {
-    margin-bottom: 0px;
-}
-
 // Credit to https://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/ for the sub/sup stuff
 sub, sup {
     vertical-align: baseline;
@@ -48,6 +44,10 @@ table th, table td {
 
 table tr:nth-child(even) {
     background-color: inherit;
+}
+
+.footnotes li p {
+    margin-bottom: 0px;
 }
 
 .invisible-table {
