@@ -10,12 +10,13 @@ Some good rules of thumb, given roughly in order of importance. This list is exp
 1. Don't waste time solving the wrong problem well.[^1]
 2. Keep things simple,
 3. but allow complexity when it yields significant utility.
-4. Not everything is an object.[^2]
-5. Books are best for learning ideas.
-6. The internet is best for learning technologies.
-7. Only consider machine learning after classical methods fail.[^3]
-8. Learn to write LaTeX.
-9. Don't try to format LaTeX.[^4]
+4. Optimize the common case.
+5. Not everything is an object.[^2]
+6. Books are best for learning ideas.
+7. The internet is best for learning technologies.
+8. Only consider machine learning after classical methods fail.[^3]
+9. Learn to write LaTeX.
+10. Don't try to format LaTeX.[^4]
 
 ## Footnotes
 
