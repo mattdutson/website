@@ -5,3 +5,6 @@ header_pages:
   - projects.md
   - about.md
   - heuristics.md
+kramdown:
+  # Remove the following line to enable footnote backlinks
+  footnote_backlink: ''
