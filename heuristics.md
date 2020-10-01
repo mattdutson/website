@@ -21,7 +21,7 @@ Some good rules of thumb, given roughly in order of importance. This list is exp
 
 ## Footnotes
 
-[^1]: Another way to say this is, "don't waste time solving the wrong problem well" (credit to Michael Gleicher that particular phrasing).
+[^1]: Another way to say this is, "don't waste time solving the wrong problem well" (credit to Michael Gleicher for that phrasing).
 [^2]: I am referring to object-oriented programming, although there may be some metaphysical truth to this.
 [^3]: Follows from (2) and (3).
 [^4]: Does not hold for professional typographers.
