@@ -7,9 +7,9 @@ layout: default
 
 Some good rules of thumb, given roughly in order of importance. This list is expected to grow as I continue to learn things.
 
-1. "Why," then "what," then "how."[^1]
+1. "Why," "what," then "how."[^1]
 2. Keep things simple,
-3. but allow complexity when it yields significant utility.
+3. but allow complexity in return for significant utility.
 4. Optimize the common case.
 5. When creating something, start with an outline or sketch.
 6. Books are best for learning ideas.
