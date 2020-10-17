@@ -13,10 +13,8 @@ As of 2019 I'm married to the lovely Itzel Estrella, who has taught me many thin
 
 I enjoy spending time outdoors: downhill skiing in the winter and hiking in the summer. I like simple, well-made things and people who work to make the world better without expecting to be praised. I care a great deal about sustainability and human rights; if you do too, let's have a conversation.
 
-Itzel and me in one of the nice parts of Utah (Snow Canyon):
-
+Itzel and me in one of the nice parts of Utah (Snow Canyon):\\
 ![itzel and me](/assets/itzel_and_me.jpg){:width="512px"}
 
-Monty the gecko with his winning smile:
-
+Monty the gecko with his winning smile:\\
 ![monty](/assets/monty.jpg){:width="512px"}
