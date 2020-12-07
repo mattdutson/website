@@ -4,6 +4,15 @@
 
 @import "minima";
 
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"), url("https://mattdutson.net/assets/Roboto.ttf");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 450;
 }
