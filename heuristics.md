@@ -24,5 +24,5 @@ Some good rules of thumb, given roughly in order of importance. This list is exp
 [^1]: Credit to Michael Gleicher for this phrasing.
 [^2]: See also the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge).
 [^3]: I am referring to object-oriented programming, although there may be some metaphysical truth to this.
-[^4]: Follows from (2).
+[^4]: Follows from (3).
 [^5]: Does not hold for professional typographers.
