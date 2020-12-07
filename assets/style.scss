@@ -9,6 +9,12 @@
     src: local("Roboto"), url("https://mattdutson.net/assets/Roboto.ttf");
 }
 
+blockquote {
+    letter-spacing: unset;
+    font-size: unset;
+    font-style: unset;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -84,9 +90,17 @@ table tr:nth-child(even) {
     margin-bottom: -10px;
 }
 
+.post-title {
+    letter-spacing: unset;
+}
+
 .site-header {
     border-top: 0px;
     border-bottom: 2px solid #e8e8e8;
+}
+
+.site-title {
+    letter-spacing: unset;
 }
 
 .youtube-container {
