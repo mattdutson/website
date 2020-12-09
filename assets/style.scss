@@ -83,7 +83,7 @@ table tr:nth-child(even) {
 .pagination {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 2px solid #e8e8e8;
+    border-top: 2px solid #d0d0d0;
 }
 
 .post-link {
@@ -96,12 +96,17 @@ table tr:nth-child(even) {
 
 .site-header {
     border-top: 0px;
-    border-bottom: 2px solid #e8e8e8;
+    border-bottom: 2px solid #d0d0d0;
     min-height: unset;
 }
 
 .site-title {
+    color: unset;
     letter-spacing: unset;
+}
+
+.site-title:visited {
+    color: unset;
 }
 
 .youtube-container {

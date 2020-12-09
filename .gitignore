@@ -3,3 +3,4 @@ _site
 vendor
 .DS_Store
 *synctex.gz
+~$*.docx
