@@ -12,7 +12,7 @@ Some good rules of thumb, given roughly in order of importance. This list is exp
 3. Simplicity is its own utility.
 4. Before starting a project, create an outline or sketch.
 5. Optimize the common case.
-6. Use books to learn concepts.
+6. Use books to learn ideas and concepts.
 7. Use the internet to learn technologies.
 8. Effective communication requires deliberate effort.
 9. Your PowerPoint slides are not your talk.
