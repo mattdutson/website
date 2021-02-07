@@ -1,6 +1,6 @@
 ## Building and Serving Locally
 
-These instructions assume a working Ruby installation of version `>=2.5.0`.
+These instructions assume a working Ruby 2.7 installation (install on macOS via `brew install ruby@2.7`).
 
 After cloning the repo, navigate to this directory and run
 ```
