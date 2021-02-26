@@ -14,12 +14,13 @@ Some good rules of thumb, given roughly in order of importance. This list is exp
 5. Optimize the common case.
 6. Use books to learn ideas and concepts.
 7. Use the internet to learn technologies.
-8. Effective communication requires deliberate effort.
-9. Your PowerPoint slides are not your talk.
-10. Not everything is an object.[^3]
-11. Only consider machine learning after classical methods fail.[^4]
-12. Learn to write LaTeX.
-13. Don't try to format LaTeX.[^5]
+8. Before you read a paper, check for a video presentation on YouTube.
+9. Effective communication requires deliberate effort.
+10. Your PowerPoint slides are not your talk.
+11. Not everything is an object.[^3]
+12. Only consider machine learning after classical methods fail.[^4]
+13. Learn to write LaTeX.
+14. Don't try to format LaTeX.[^5]
 
 ## Footnotes
 
