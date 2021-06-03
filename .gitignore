@@ -1,6 +1,8 @@
+# Sorted using the VSCode "Sort Lines Ascending" command
 _site
 .bundle
-vendor
 .DS_Store
+.vscode
 *synctex.gz
 ~$*.docx
+vendor
