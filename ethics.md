@@ -5,7 +5,7 @@ layout: default
 
 # Thoughts on Ethical Research
 
-Questions about the potential negative impacts of my research have recently been weighing on my mind. Joseph Redmon, a prominent researcher, recently paused his computer vision research over worries about surveillance and misuse by the military. I share his concerns. Many 21st century ailments - political division, consumerism, technology addiction, and surveillance - can be traced to the large-scale manipulation of humans by artificial agents.
+Questions about the potential negative impacts of my research have recently been weighing on my mind. Joseph Redmon, a prominent researcher, recently [paused his computer vision research](https://mobile.twitter.com/pjreddie/status/1230524770350817280) over [worries about surveillance and misuse by the military](https://m.youtube.com/watch?v=XS2UWYuh5u0). I share his concerns. Many 21st century ailments - political division, consumerism, technology addiction, and surveillance - can be traced to the large-scale manipulation of humans by artificial agents.
 
 These realities are in stark contrast to the vision of AI that I (and others in the field) hold in our minds. In the long term, artificial intelligence has the potential to liberate humanity from its physical constraints. In the near term, AI promises (among other things) to give us more accurate cancer diagnoses, reduce traffic fatalities, and fuel new scientific advancements.
 
