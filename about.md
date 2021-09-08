@@ -19,4 +19,4 @@ Itzel and me in one of the nice parts of Utah (Snow Canyon):\\
 Monty the gecko with his winning smile:\\
 ![monty](/assets/monty.jpg){:width="512px"}
 
-If you've made it this far, I assume it's because you care about Matt the Human and not just Matt the Graduate Student. I don't do social media, but I do have a personal blog at [blog.mattdutson.net](https://blog.mattdutson.net). It isn't indexed by search engines because I don't want recruiters or the internet masses poring over my personal life. If we don't know each other, please don't click the link.
+<!-- If you've made it this far, I assume it's because you care about Matt the Human and not just Matt the Graduate Student. I don't do social media, but I do have a personal blog at [blog.mattdutson.net](https://blog.mattdutson.net). It isn't indexed by search engines because I don't want recruiters or the internet masses poring over my personal life. If we don't know each other, please don't click the link. -->
