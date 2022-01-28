@@ -2,6 +2,6 @@ theme: minima
 title: Matt Dutson
 header_pages:
   - cv.html
-  - projects.md
   - about.md
   - heuristics.md
+  - projects.md

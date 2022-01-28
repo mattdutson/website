@@ -6,7 +6,7 @@ layout: default
 # Projects
 {:.no_toc}
 
-This page contains a non-exhaustive sample of my past work.
+This page summarizes a few of my side projects. It was last updated in December 2019. See [my CV](/assets/cv.pdf) for a more exhaustive list of things I've worked on.
 
 ## Contents
 {:.no_toc}
@@ -18,7 +18,7 @@ This page contains a non-exhaustive sample of my past work.
 
 [Source code](https://github.com/mattdutson/style-transfer)
 
-This is a personal side project I recently picked up. Neural style transfer extracts the style from one image (say, a Van Gogh painting) and applies it to another image (typically a photograph). The transfer is "neural" because a pre-trained neural network is used to understand the style and content of the two images.
+Neural style transfer extracts the style from one image (say, a Van Gogh painting) and applies it to another image (typically a photograph). The transfer is "neural" because a pre-trained neural network is used to understand the style and content of the two images.
 
 My implementation is mostly based on [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) (Gatys et al. 2015). The L-BFGS optimizer is used to minimize a loss function comprised of a style term, a content term, and an anti-noise term.
 
@@ -29,7 +29,7 @@ Here's an example. On the left is a photo I took of a bristlecone pine in Great 
 
 [Source code](https://github.com/mattdutson/xview2)
 
-Mehmet Demirel, Shri Shridhar, and I participated in the 2019 [xView2 competition](https://xview2.org/) for a computer vision class project. The task was, given pre and post-disaster satellite images of some region, to localize buildings and estimate the damage they sustained during the disaster.
+Mehmet Demirel, Shri Shridhar, and I participated in the 2019 [xView2 competition](https://xview2.org/). Given pre and post-disaster satellite images of some region, the task was to localize buildings and estimate the damage they sustained during the disaster.
 
 We trained a custom [U-Net](https://arxiv.org/abs/1505.04597) (Ronneberger et al. 2015) using a class-weighted loss. Our model performed competitively, spending a couple of weeks on the competition leaderboard. The details of our approach and results can be found in [this report](/assets/xview2_report.pdf).
 
