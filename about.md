@@ -11,7 +11,7 @@ I earned a bachelor's degree in physics from the University of Utah in Salt Lake
 
 I enjoy spending time outdoors: downhill skiing in the winter and hiking in the summer. I like simple, well-made things and people who make the world better without expecting to be praised. I care a great deal about sustainability and human rights.
 
-As of 2019 I'm married to the lovely Itzel Estrella. She has taught me many things I would not have thought to teach myself. We have a leopard gecko named Monty who has only bitten me twice. Once for being a jerk, and once for looking like a worm.
+As of 2019 I'm married to a lovely woman named Itzel. She has taught me many things I would not have thought to teach myself. We have a leopard gecko named Monty who has only bitten me twice.
 
 Itzel and me in one of the nice parts of Utah (Snow Canyon):\\
 ![itzel and me](/assets/itzel_and_me.jpg){:width="512px"}
