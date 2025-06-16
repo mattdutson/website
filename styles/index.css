@@ -1,0 +1,22 @@
+.paper {
+    margin-bottom: 15px;
+}
+
+.paper h3 {
+    font-size: medium;
+}
+
+.paper h3,
+.paper p {
+    margin-bottom: 0px;
+}
+
+.projects {
+    padding-left: 20px;
+}
+
+.timestamp {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
