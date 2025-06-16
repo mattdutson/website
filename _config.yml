@@ -1,0 +1,7 @@
+# This keeps GitHub Pages from generating an unnecessary CSS file.
+theme: null
+
+# List files or folders that should be excluded from the website build.
+exclude:
+  - README.md
+  - squashed_commit.sh
